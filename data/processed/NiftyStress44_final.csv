@@ -1,0 +1,45 @@
+sector,stress_event,window_start,window_end,max_drawdown_pct,var_95,recovery_days,sharpe_drop,risk_label
+Auto,COVID-19 Crash,2020-02-17,2020-04-01,-37.08,-6.92,,-5.07,High
+Auto,Russia-Ukraine Shock,2022-02-16,2022-04-29,-17.65,-3.91,,-0.07,High
+Auto,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-9.23,-1.68,,1.59,Medium
+Auto,US Fed Tightening,2022-03-16,2023-12-13,-12.08,-1.48,25.0,2.53,Medium
+Banking,COVID-19 Crash,2020-02-17,2020-04-01,-44.8,-9.09,,-5.5,High
+Banking,Russia-Ukraine Shock,2022-02-16,2022-04-29,-12.91,-2.12,19.0,-1.28,Medium
+Banking,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-9.33,-1.98,16.0,2.33,Medium
+Banking,US Fed Tightening,2022-03-16,2023-12-13,-14.15,-1.58,33.0,1.62,Medium
+Energy,COVID-19 Crash,2020-02-17,2020-04-01,-30.04,-7.53,,-1.61,High
+Energy,Russia-Ukraine Shock,2022-02-16,2022-04-29,-6.84,-2.35,4.0,1.59,Medium
+Energy,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-14.45,-2.0,99.0,-1.66,Medium
+Energy,US Fed Tightening,2022-03-16,2023-12-13,-16.81,-1.56,166.0,0.43,High
+FMCG,COVID-19 Crash,2020-02-17,2020-04-01,-23.67,-5.73,,-2.64,High
+FMCG,Russia-Ukraine Shock,2022-02-16,2022-04-29,-7.57,-2.26,20.0,1.9,Medium
+FMCG,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-6.68,-1.39,10.0,1.48,Medium
+FMCG,US Fed Tightening,2022-03-16,2023-12-13,-8.7,-1.3,,2.74,Medium
+Financial_Services,COVID-19 Crash,2020-02-17,2020-04-01,-47.45,-8.83,,-5.91,High
+Financial_Services,Russia-Ukraine Shock,2022-02-16,2022-04-29,-12.26,-3.05,18.0,0.68,Medium
+Financial_Services,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-17.8,-2.16,,1.48,High
+Financial_Services,US Fed Tightening,2022-03-16,2023-12-13,-20.31,-1.83,69.0,2.32,High
+IT,COVID-19 Crash,2020-02-17,2020-04-01,-32.32,-8.12,,-5.85,High
+IT,Russia-Ukraine Shock,2022-02-16,2022-04-29,-13.3,-2.42,,-1.35,Medium
+IT,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-16.96,-2.22,,2.13,High
+IT,US Fed Tightening,2022-03-16,2023-12-13,-28.24,-1.81,,0.07,High
+Media,COVID-19 Crash,2020-02-17,2020-04-01,-45.38,-7.8,,-8.78,High
+Media,Russia-Ukraine Shock,2022-02-16,2022-04-29,-12.97,-2.92,18.0,0.74,Medium
+Media,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-16.01,-3.11,,-0.59,High
+Media,US Fed Tightening,2022-03-16,2023-12-13,-28.2,-2.49,117.0,2.28,High
+Metal,COVID-19 Crash,2020-02-17,2020-04-01,-50.49,-10.6,,-6.96,High
+Metal,Russia-Ukraine Shock,2022-02-16,2022-04-29,-10.19,-3.58,,0.31,Medium
+Metal,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-30.91,-3.52,112.0,-0.94,High
+Metal,US Fed Tightening,2022-03-16,2023-12-13,-38.56,-2.83,365.0,-0.08,High
+PSU_Bank,COVID-19 Crash,2020-02-17,2020-04-01,-42.35,-9.8,,-4.56,High
+PSU_Bank,Russia-Ukraine Shock,2022-02-16,2022-04-29,-14.15,-2.37,20.0,-1.34,Medium
+PSU_Bank,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-16.73,-3.03,,3.15,High
+PSU_Bank,US Fed Tightening,2022-03-16,2023-12-13,-21.91,-2.64,67.0,1.72,High
+Pharma,COVID-19 Crash,2020-02-17,2020-04-01,-16.06,-5.39,,-4.04,High
+Pharma,Russia-Ukraine Shock,2022-02-16,2022-04-29,-7.16,-2.44,4.0,1.5,Medium
+Pharma,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-10.14,-1.59,37.0,0.29,Medium
+Pharma,US Fed Tightening,2022-03-16,2023-12-13,-15.37,-1.46,92.0,1.28,High
+Realty,COVID-19 Crash,2020-02-17,2020-04-01,-41.31,-9.22,,-9.16,High
+Realty,Russia-Ukraine Shock,2022-02-16,2022-04-29,-11.18,-3.0,7.0,2.63,Medium
+Realty,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-15.65,-2.67,21.0,-0.09,High
+Realty,US Fed Tightening,2022-03-16,2023-12-13,-21.81,-2.09,49.0,2.98,High

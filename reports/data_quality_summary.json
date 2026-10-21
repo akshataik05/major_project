@@ -1,0 +1,79 @@
+{
+  "total_records": 44,
+  "expected_records": 44,
+  "completeness_score_pct": 94.03,
+  "sectors_verified": {
+    "expected_count": 11,
+    "actual_count": 11,
+    "sectors_list": [
+      "Auto",
+      "Banking",
+      "Energy",
+      "FMCG",
+      "Financial_Services",
+      "IT",
+      "Media",
+      "Metal",
+      "PSU_Bank",
+      "Pharma",
+      "Realty"
+    ],
+    "all_expected_present": true
+  },
+  "events_verified": {
+    "expected_count": 4,
+    "actual_count": 4,
+    "events_list": [
+      "COVID-19 Crash",
+      "Russia-Ukraine Shock",
+      "RBI Rate Hike Cycle",
+      "US Fed Tightening"
+    ],
+    "all_expected_present": true
+  },
+  "duplicate_sector_event_pairs": 0,
+  "null_values_by_column": {
+    "Sector": 0,
+    "Event_ID": 0,
+    "Event_Name": 0,
+    "Maximum_Drawdown(%)": 0,
+    "VaR_95(%)": 0,
+    "Sharpe_Ratio": 0,
+    "Recovery_Days": 21,
+    "Risk_Label": 0
+  },
+  "class_distribution": {
+    "High": 26,
+    "Medium": 18
+  },
+  "class_distribution_note": "Zero records in 'Low' risk class due to market-wide stress severity (all sector MDDs < -5%).",
+  "range_checks": {
+    "max_drawdown_pct": {
+      "min": -50.49,
+      "max": -6.68,
+      "valid_range": "All negative, max is -6.68%, min is -50.49%"
+    },
+    "var_95": {
+      "min": -10.6,
+      "max": -1.3,
+      "valid_range": "All negative, max is -1.30%, min is -10.60%"
+    },
+    "sharpe_ratio_raw": {
+      "min": -7.77,
+      "max": 2.33,
+      "note": "Raw stress period Sharpe ratio, NOT Sharpe drop from baseline"
+    },
+    "recovery_days": {
+      "min": 4.0,
+      "max": 365.0,
+      "null_count": 21,
+      "note": "21 records are null because recovery occurred after stress window end"
+    }
+  },
+  "overall_audit_verdict": "PASS WITH LIMITATIONS",
+  "verdict_details": {
+    "descriptive_analysis": "PASS - Historical return series and MDD/VaR calculations are solid.",
+    "risk_label_generation": "PASS - Accurate application of MDD threshold rule (High vs Medium).",
+    "machine_learning_experiments": "PASS WITH LIMITATIONS - Small sample size (N=44) and 2 populated classes require Stratified 3-Fold CV, GroupKFold, and strict exclusion of MDD to avoid target leakage."
+  }
+}

@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Node & Frontend dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Sensitive Keys, Credentials & Environment Files
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa*
+id_ed25519
+id_ed25519*
+*.p12
+*.pfx
+*.keystore
+.ssh/
+secrets/
+*.secret
+*.token
+credentials.json
+client_secret*.json
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.gemini/
+
+# Large Raw Archives (Over GitHub 100MB Limit)
+# Note: Verified constituent daily return CSVs and benchmark CSVs are preserved in data/
+Nifty_50
+*.zip
+*.tar
+*.tar.gz
+*.rar

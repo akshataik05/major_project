@@ -1,0 +1,90 @@
+{
+  "sectors": {
+    "Banking": [
+      "HDFCBANK.NS",
+      "ICICIBANK.NS",
+      "SBIN.NS",
+      "AXISBANK.NS",
+      "KOTAKBANK.NS"
+    ],
+
+    "IT": [
+      "TCS.NS",
+      "INFY.NS",
+      "HCLTECH.NS",
+      "WIPRO.NS",
+      "TECHM.NS"
+    ],
+
+    "FMCG": [
+      "HINDUNILVR.NS",
+      "ITC.NS",
+      "NESTLEIND.NS",
+      "BRITANNIA.NS",
+      "DABUR.NS"
+    ],
+
+    "Auto": [
+      "MARUTI.NS",
+      "TATAMOTORS.NS",
+      "M&M.NS",
+      "BAJAJ-AUTO.NS",
+      "HEROMOTOCO.NS"
+    ],
+
+    "Pharma": [
+      "SUNPHARMA.NS",
+      "DRREDDY.NS",
+      "CIPLA.NS",
+      "DIVISLAB.NS",
+      "LUPIN.NS"
+    ],
+
+    "Metal": [
+      "TATASTEEL.NS",
+      "JSWSTEEL.NS",
+      "HINDALCO.NS",
+      "VEDL.NS",
+      "SAIL.NS"
+    ],
+
+    "Energy": [
+      "RELIANCE.NS",
+      "ONGC.NS",
+      "NTPC.NS",
+      "POWERGRID.NS",
+      "IOC.NS"
+    ],
+
+    "Realty": [
+      "DLF.NS",
+      "GODREJPROP.NS",
+      "OBEROIRLTY.NS",
+      "PRESTIGE.NS",
+      "PHOENIXLTD.NS"
+    ],
+
+    "Media": [
+      "ZEEL.NS",
+      "SUNTV.NS",
+      "PVRINOX.NS",
+      "NETWORK18.NS"
+    ],
+
+    "PSU_Bank": [
+      "SBIN.NS",
+      "BANKBARODA.NS",
+      "PNB.NS",
+      "CANBK.NS",
+      "UNIONBANK.NS"
+    ],
+
+    "Financial_Services": [
+      "BAJFINANCE.NS",
+      "BAJAJFINSV.NS",
+      "HDFCLIFE.NS",
+      "SBILIFE.NS",
+      "ICICIBANK.NS"
+    ]
+  }
+}

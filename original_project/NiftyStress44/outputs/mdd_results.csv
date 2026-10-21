@@ -1,0 +1,45 @@
+Sector,Event_ID,Event_Name,Start_Date,End_Date,Maximum_Drawdown(%)
+Auto,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-37.08
+Auto,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-17.65
+Auto,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-9.23
+Auto,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-12.08
+Banking,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-44.8
+Banking,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-12.91
+Banking,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-9.33
+Banking,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-14.15
+Energy,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-30.04
+Energy,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-6.84
+Energy,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-14.45
+Energy,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-16.81
+FMCG,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-23.67
+FMCG,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-7.57
+FMCG,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-6.68
+FMCG,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-8.7
+Financial_Services,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-47.45
+Financial_Services,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-12.26
+Financial_Services,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-17.8
+Financial_Services,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-20.31
+IT,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-32.32
+IT,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-13.3
+IT,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-16.96
+IT,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-28.24
+Media,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-45.38
+Media,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-12.97
+Media,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-16.01
+Media,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-28.2
+Metal,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-50.49
+Metal,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-10.19
+Metal,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-30.91
+Metal,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-38.56
+PSU_Bank,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-42.35
+PSU_Bank,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-14.15
+PSU_Bank,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-16.73
+PSU_Bank,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-21.91
+Pharma,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-16.06
+Pharma,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-7.16
+Pharma,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-10.14
+Pharma,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-15.37
+Realty,covid_2020,COVID-19 Crash,2020-02-17,2020-04-01,-41.31
+Realty,russia_ukraine_2022,Russia-Ukraine Shock,2022-02-16,2022-04-29,-11.18
+Realty,rbi_rate_hike_2022_23,RBI Rate Hike Cycle,2022-05-04,2023-02-08,-15.65
+Realty,us_fed_tightening_2022_23,US Fed Tightening,2022-03-16,2023-12-13,-21.81

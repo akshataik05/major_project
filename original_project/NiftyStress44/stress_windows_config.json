@@ -1,0 +1,43 @@
+{
+  "index_ticker": "^NSEI",
+  "baseline_lookback_days": 90,
+  "validation_min_index_mdd_pct": -5.0,
+
+  "stress_windows": [
+    {
+      "event_id": "covid_2020",
+      "event_name": "COVID-19 Crash",
+      "window_start": "2020-02-17",
+      "window_end": "2020-04-01",
+      "trigger": "WHO declared COVID-19 a pandemic",
+      "expected_impact": "High drawdown across most sectors"
+    },
+
+    {
+      "event_id": "russia_ukraine_2022",
+      "event_name": "Russia-Ukraine Shock",
+      "window_start": "2022-02-16",
+      "window_end": "2022-04-29",
+      "trigger": "Russia invaded Ukraine",
+      "expected_impact": "Energy and Metal sectors relatively resilient"
+    },
+
+    {
+      "event_id": "rbi_rate_hike_2022_23",
+      "event_name": "RBI Rate Hike Cycle",
+      "window_start": "2022-05-04",
+      "window_end": "2023-02-08",
+      "trigger": "RBI Repo Rate increased from 4.0% to 6.5%",
+      "expected_impact": "Banking volatility, Realty weakness"
+    },
+
+    {
+      "event_id": "us_fed_tightening_2022_23",
+      "event_name": "US Fed Tightening",
+      "window_start": "2022-03-16",
+      "window_end": "2023-12-13",
+      "trigger": "US Federal Reserve interest rate hikes",
+      "expected_impact": "IT sector pressure and FII outflows"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "target_dataset_name": "NiftyStress44_final.csv",
+  "actual_dataset_name": "labeled_risk_dataset.csv",
+  "schema_match": false,
+  "expected_column_count": 9,
+  "actual_column_count": 8,
+  "expected_schema": [
+    {
+      "name": "sector",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "stress_event",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "window_start",
+      "type": "DATE",
+      "required": true
+    },
+    {
+      "name": "window_end",
+      "type": "DATE",
+      "required": true
+    },
+    {
+      "name": "max_drawdown_pct",
+      "type": "FLOAT",
+      "required": true
+    },
+    {
+      "name": "var_95",
+      "type": "FLOAT",
+      "required": true
+    },
+    {
+      "name": "recovery_days",
+      "type": "INT",
+      "required": true
+    },
+    {
+      "name": "sharpe_drop",
+      "type": "FLOAT",
+      "required": true
+    },
+    {
+      "name": "risk_label",
+      "type": "TEXT",
+      "required": true
+    }
+  ],
+  "actual_schema": [
+    {
+      "name": "Sector",
+      "dtype": "object",
+      "null_count": 0
+    },
+    {
+      "name": "Event_ID",
+      "dtype": "object",
+      "null_count": 0
+    },
+    {
+      "name": "Event_Name",
+      "dtype": "object",
+      "null_count": 0
+    },
+    {
+      "name": "Maximum_Drawdown(%)",
+      "dtype": "float64",
+      "null_count": 0
+    },
+    {
+      "name": "VaR_95(%)",
+      "dtype": "float64",
+      "null_count": 0
+    },
+    {
+      "name": "Sharpe_Ratio",
+      "dtype": "float64",
+      "null_count": 0
+    },
+    {
+      "name": "Recovery_Days",
+      "dtype": "float64",
+      "null_count": 21
+    },
+    {
+      "name": "Risk_Label",
+      "dtype": "object",
+      "null_count": 0
+    }
+  ],
+  "missing_expected_columns": [
+    "window_start",
+    "window_end",
+    "sharpe_drop"
+  ],
+  "unexpected_extra_columns": [
+    "Event_ID",
+    "Sharpe_Ratio"
+  ],
+  "renaming_required": {
+    "Sector": "sector",
+    "Event_Name": "stress_event",
+    "Maximum_Drawdown(%)": "max_drawdown_pct",
+    "VaR_95(%)": "var_95",
+    "Recovery_Days": "recovery_days",
+    "Risk_Label": "risk_label"
+  },
+  "verdict": "FAIL - Schema requires alignment with official 9-column PDF specification."
+}
